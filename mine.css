@@ -1,0 +1,304 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+    transition: 0.6 ease;
+}
+
+.navbar 
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider
+{
+    
+    width:  100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.intro1
+{
+    font-size: 25px;
+}
+.carousel-caption h5
+{
+    color: black;
+    font-size: 42px;
+}
+
+/*-----------Definitions-----------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ddl-content
+{
+    padding-top: 20px;
+}
+.dml-content
+{
+    padding-top: 20px;
+}
+.col-md-6 h2
+{
+    color: black;
+    font-size: 35px;
+}
+/*--------commands------*/
+#ddl
+{
+    /*background-image: linear-gradient(rgba(175, 183, 189, 0.774),rgba(175, 183, 189, 0.774));*/
+   background-image: url(bgg1.gif);
+    background-repeat: repeat;
+    transition: ease ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ddl-commands
+{
+    padding-top: 20px;  
+    /*color: rgb(241, 189, 241); */
+    color: white;
+}
+
+#ddl h1
+{
+
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#ddl h1::after
+{
+    content: '';
+    background:black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#ddl h4
+{
+    font-size: 19px;
+    color: black;
+}
+#ddl h3
+{
+    color: black;
+    font-size: 22px;
+}
+#dml h6
+{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#dml h6::after
+{
+    content: '';
+    background:black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#dml
+{
+    background-image: linear-gradient(rgba(175, 183, 189, 0.774),rgba(175, 183, 189, 0.774));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ddl-syntax
+{
+    color: white;
+}
+#dml
+{
+    background-image: url(bgg4.gif);
+    background-repeat: repeat;
+    background-size: cover;
+}
+#examples h4
+{
+    padding-top: 20px;
+}
+
+.dml-commands
+{
+    color: white;
+}
+
+#contact h1
+{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#contact h1::after
+{
+    content: '';
+    background:black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#contact
+{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+#dml h3
+{
+    padding-top: 20px;
+    font-size: 22px;
+    color: #efefef;
+}
+.dml-syntax
+{
+    color: white;
+}
+
+#dml h4
+{
+    padding-top: 20px;
+    font-size: 17px;
+    color: black;
+}
+#examples h4
+{
+    padding-top: 20px;
+}
+#con h6
+{
+    text-align: center;
+    color: black !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#con h6::after
+{
+    content: '';
+    background:black;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+#con
+
+{
+    background-image: linear-gradient(rgba(175, 183, 189, 0.774),rgba(175, 183, 189, 0.774));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#con h3
+{
+    padding-top: 20px;
+    font-size: 22px;  
+}
+#con h4
+{
+    padding-top: 20px;
+    font-size: 17px;
+    color: black;
+}
+#examples
+{
+    padding-bottom: 50px;
+}
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 10px;
+    color: red;
+}
