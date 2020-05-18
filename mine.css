@@ -98,9 +98,9 @@
 #ddl
 {
     /*background-image: linear-gradient(rgba(175, 183, 189, 0.774),rgba(175, 183, 189, 0.774));*/
-   background-image: url(bgg3.gif);
+   background-image: url(bgg1.gif);
     background-repeat: repeat;
-    opacity: 0.9;
+    opacity: 0.8;
     transition: ease ;
     padding-top: 50px;
     padding-bottom: 50px;
